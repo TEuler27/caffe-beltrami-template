@@ -1,0 +1,2 @@
+Title,Abstract,Name of speaker 1, Bio of speaker 1
+{Example title},{\textbf{\emph{Very short abstract example}}. If a new paragraph must be issued, use {\tt\string\par}\ or {\ttfamily\string\endgraf}\ in place of leaving a blank line.},{John Doe},{PhD candidate. Interested in \lq automatic typography\rq.}
