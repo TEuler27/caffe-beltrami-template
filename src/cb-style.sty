@@ -157,6 +157,7 @@ stretch=0.5
 
 \def\sectionpage{%
 \edef\sectionsss{\insertsection}
+\begingroup
 \setbeamertemplate{headline}{\vspace*{16ex}}
 \setbeamertemplate{footline}{}
 \setbeamercolor{background canvas}{bg=white}
@@ -168,7 +169,9 @@ stretch=0.5
 \draw[ultra thick, celeste] (sec.north east) circle [radius=0.75cm];
 \node[text width=0.75\textwidth, align=flush center] at (sec) {\fontsize{40}{48}\selectfont \sectionsss};
 \end{tikzpicture}
-\end{frame}\addtocounter{framenumber}{-1}
+\end{frame}
+\endgroup
+\addtocounter{framenumber}{-1}
 }
 
 \ifcbdraft
