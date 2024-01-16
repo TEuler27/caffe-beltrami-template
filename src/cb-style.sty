@@ -22,7 +22,7 @@
 \RequirePackage[italian]{babel}
 
 \definecolor{giallo}{HTML}{FAD02C}
-\definecolor{BLU}{HTML}{333652}
+\definecolor{blu}{HTML}{333652}
 \definecolor{celeste}{HTML}{90ADC6}
 \definecolor{grigio}{HTML}{E9EAEC}
 
@@ -47,7 +47,7 @@
 	\put(5,265){\makebox(0,0)[rt]{\begin{tikzpicture}
 	\fill[white] (-1,-1.25) rectangle (2,1) ;
 	\fill[giallo] (-1,-1) circle[radius=5em];
-	\draw[very thick,BLU] (-0.6,-0.6) circle[radius=3em];
+	\draw[very thick,blu] (-0.6,-0.6) circle[radius=3em];
 	\node[inner sep=1pt,clip] at (0.75,0.25) {\includegraphics[width=11em, 
 	trim=0cm 3cm 0cm 0cm]{Logo}};
 	\fill[giallo] (1.2,-0.75) rectangle (1.325,-\paperheight);
@@ -72,7 +72,7 @@
 
 
 
-\setbeamercolor{quadrato}{fg=,bg=BLU}
+\setbeamercolor{quadrato}{fg=,bg=blu}
 \setbeamercolor{riga}{fg=,bg=giallo}
 \setbeamercolor{alerted text}{fg=purple4,bg=}
 %\addtobeamertemplate{headline}{}{%
@@ -87,7 +87,7 @@
 \setbeamertemplate{itemize item}{\includegraphics[width=1.5ex]{caffettiera}}
 
 \newcommand*{\scrivinumero}[1][]{%
-\global\setbeamercolor{ilnumero}{bg=,fg=BLU}
+\global\setbeamercolor{ilnumero}{bg=,fg=blu}
 \begin{beamercolorbox}[ht=7ex,dp=4ex,wd=16ex,center]{ilnumero}
 \fontsize{10}{10}\selectfont \number\numexpr\theframenumber#1\relax 
 /\number\numexpr\number\inserttotalframenumber#1\relax
@@ -107,10 +107,10 @@
 \begin{tblr}{
 colspec={l},
 hline{2}={1.3333ex,solid,giallo},
-vline{2}={10ex,solid,BLU},
+vline{2}={10ex,solid,blu},
 row{1} = {9ex, abovesep=0pt, belowsep=0pt},
 row{2} = {4ex, abovesep=0pt},
-column{1} = {0.6667\paperwidth, font=\bfseries\large, fg=BLU},
+column{1} = {0.6667\paperwidth, font=\bfseries\large, fg=blu},
 %rowsep = -2pt,
 %rulesep = -2pt,
 %abovesep=0pt,
@@ -154,7 +154,7 @@ stretch=0.5
 \setbeamertemplate{headline}{\vspace*{16ex}}
 \setbeamertemplate{footline}{}
 \setbeamercolor{background canvas}{bg=white}
-\begin{frame}\color{BLU}
+\begin{frame}\color{blu}
 \centering\bfseries
 \begin{tikzpicture}
 \node[text opacity=0, text width=0.75\textwidth, align=flush center] (sec) at (0,0) {\fontsize{40}{48}\selectfont \sectionsss};
@@ -319,7 +319,7 @@ stretch=0.5
 	\put(5,265){\makebox(0,0)[rt]{\begin{tikzpicture}
 	\fill[white] (-1,-1.25) rectangle (2,1) ;
 	\fill[giallo] (-1,-1) circle[radius=5em];
-	\draw[very thick,BLU] (-0.6,-0.6) circle[radius=3em];
+	\draw[very thick,blu] (-0.6,-0.6) circle[radius=3em];
 	\node[inner sep=1pt,clip] at (0.75,0.25) {\includegraphics[width=11em, 
 	trim=0cm 3cm 0cm 0cm]{Logo}};
 	\fill[giallo] (1.2,-0.75) rectangle (1.325,-\paperheight);
